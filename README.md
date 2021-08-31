@@ -94,8 +94,8 @@ __EXIT__ :
 
 <br>
 <p align="center">
-<img width="45%" src="https://user-images.githubusercontent.com/49580304/131511305-c8e6ca69-5aac-4c4e-85af-5b96d2f6eb7e.jpg"/>
-<img width="50%" src="https://user-images.githubusercontent.com/49580304/131511313-10d3a368-a441-4fa2-b700-ed80fef23d1a.jpg"/>
+<img width="45%" src="https://user-images.githubusercontent.com/49580304/131512973-1531a7cf-9245-42cb-be26-e9df01fbdf7d.jpg"/>
+<img width="50%" src="https://user-images.githubusercontent.com/49580304/131512982-8487f686-8a1f-4337-a261-4dd5af69c946.jpg"/>
 </p>
 
 ## WATCH VIDEO [Termux]
