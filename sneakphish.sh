@@ -71,7 +71,7 @@ then
 pagemenu
 elif [[ "$iput" = "2" || "$iput" = "two" ]];
 then
-[echo -e  "                                               SOON I WILL UPDATE"
+echo -e  "                                               SOON I WILL UPDATE"
 elif [[ "$iput" = "3" || "$iput" = "three" ]];
 then
 about
