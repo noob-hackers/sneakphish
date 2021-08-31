@@ -20,7 +20,7 @@ fi
 issues () {
 pings=$(echo $(basename $(readlink -nf $0)))
 skip=$(wc -w "$pings" | cut -d' ' -f1)
-if [ "$skip" = "2305" ]
+if [ "$skip" = "2306" ]
 then
 vars=$(echo)
 else
