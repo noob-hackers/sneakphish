@@ -89,7 +89,7 @@ then
 am start -a android.intent.action.VIEW -d https://tinyurl.com/whatschat > /dev/null 2>&1
 elif [[ "$iput" = "8" || "$iput" = "eight" ]];
 then
-bash prophish.sh
+bash sneakphish.sh
 elif [[ "$iput" = "9" || "$iput" = "nine" ]];
 then
 exit 1
