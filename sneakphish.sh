@@ -20,7 +20,7 @@ fi
 issues () {
 pings=$(echo $(basename $(readlink -nf $0)))
 skip=$(wc -w "$pings" | cut -d' ' -f1)
-if [ "$skip" = "2306" ]
+if [ "$skip" = "2305" ]
 then
 vars=$(echo)
 else
@@ -71,7 +71,7 @@ then
 pagemenu
 elif [[ "$iput" = "2" || "$iput" = "two" ]];
 then
-[Aecho -e  "                                               SOON I WILL UPDATE"
+[echo -e  "                                               SOON I WILL UPDATE"
 elif [[ "$iput" = "3" || "$iput" = "three" ]];
 then
 about
