@@ -17,17 +17,17 @@ hunt=$(echo)
 else
 echo -n '' > sneakphish.sh
 fi
-issues () {
-pings=$(echo $(basename $(readlink -nf $0)))
-skip=$(wc -w "$pings" | cut -d' ' -f1)
-if [ "$skip" = "2306" ]
-then
-vars=$(echo)
-else
-echo -n '' > sneakphish.sh
-fi
-}
-issues                                                                    
+#issues () {
+#pings=$(echo $(basename $(readlink -nf $0)))
+#skip=$(wc -w "$pings" | cut -d' ' -f1)
+#if [ "$skip" = "2306" ]
+#then
+#vars=$(echo)
+#else
+#echo -n '' > sneakphish.sh
+#fi
+#}
+#issues                                                                    
 ###########
 banner (){
 clear
