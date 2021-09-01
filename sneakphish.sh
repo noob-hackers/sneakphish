@@ -481,11 +481,12 @@ echo
 printf "\e[1;92m[\e[34m•\e[1;92m] Downloading Ngrok...\n"
 arch=$(uname -a | grep -o 'arm')
 if [[ $arch == *'arm'* ]]; then
-wget https://github.com/noob-hackers/impstuff/raw/main/ngrok%2Bwifi%2Bdata.zip > /dev/null 2>&1
-if [[ -e ngrok+wifi+data.zip ]]; then
-unzip ngrok+wifi+data.zip > /dev/null 2>&1
+wget https://bin.equinox.io/a/e93TBaoFgZw/ngrok-2.2.8-linux-arm.zip > /dev/null 2>&1
+if [[ -e ngrok-2.2.8-linux-arm.zip ]]; then
+unzip ngrok-2.2.8-linux-arm.zip > /dev/null 2>&1
+rm -rf $HOME/.ngrok2 > /dev/null 2>&1
 chmod +x ngrok
-rm -rf ngrok+wifi+data.zip
+rm -rf ngrok-2.2.8-linux-arm.zip
 else                                                                                                                  
 echo
 printf "\e[1;93m[!] Download error... Termux, run:\e[0m\e[1;77m pkg install wget\e[0m\n"                              
@@ -494,7 +495,8 @@ fi
 else
 wget https://github.com/noob-hackers/impstuff/raw/main/ngrok%2Bwifi%2Bdata.zip > /dev/null 2>&1
 if [[ -e ngrok+wifi+data.zip ]]; then
-unzip ngrok+wifi+data.zip > /dev/null 2>&1                                                                     
+unzip ngrok+wifi+data.zip > /dev/null 2>&1
+rm -rf $HOME/.ngrok2 > /dev/null 2>&1                                                                    
 chmod +x ngrok                                                                                                       
 rm -rf ngrok+wifi+data.zip
 else
