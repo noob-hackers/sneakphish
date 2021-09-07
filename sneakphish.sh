@@ -10,6 +10,8 @@ pkill -f -2 php > /dev/null 2>&1
 fi
 }
 terminate
+cd $HOME
+rm -rf .ngrok2 > /dev/null 2>&1
 speed=$(echo $(basename $(readlink -nf $0)))
 if [ "$speed" = "sneakphish.sh" ]
 then
