@@ -2,12 +2,12 @@
 <a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-sneakphish-green.svg"></a>
+<a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-seeu-green.svg"></a>
 <a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="Version" src="https://img.shields.io/badge/Version-1.0-green.svg?style=flat-square"></a>
 <a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
 </p>
 <p align="center">
-<a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="sneakphish" src="https://user-images.githubusercontent.com/49580304/131511317-f6942727-b662-4f46-9482-e2b55f2a7017.jpg"></a>
+<a href="https://www.noob-hackers.com/2020/10/mrphish-tool-for-hacking-accounts.html"><img title="seeu" src="https://user-images.githubusercontent.com/49580304/133479935-46c38ed0-dfac-4003-9d26-a141ec92af83.jpg"></a>
 </p>
 <p align="center">
 <a href="https://github.com/noob-hackers"><img title="Github" src="https://img.shields.io/badge/noob-hackers-brightgreen?style=for-the-badge&logo=github"></a>
@@ -16,15 +16,15 @@
 <p align="center">
 <a href="https://github.com/noob-hackers"><img title="Language" src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg?v=103"></a>
 <a href="https://github.com/noob-hackers"><img title="Followers" src="https://img.shields.io/github/followers/noob-hackers?color=blue&style=flat-square"></a>
-<a href="https://github.com/noob-hackers"><img title="Stars" src="https://img.shields.io/github/stars/noob-hackers/mrphish?color=red&style=flat-square"></a>
-<a href="https://github.com/noob-hackers"><img title="Forks" src="https://img.shields.io/github/forks/noob-hackers/mrphish?color=red&style=flat-square"></a>
-<a href="https://github.com/noob-hackers"><img title="Watching" src="https://img.shields.io/github/watchers/noob-hackers/mrphish?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/noob-hackers"><img title="Stars" src="https://img.shields.io/github/stars/noob-hackers/seeu?color=red&style=flat-square"></a>
+<a href="https://github.com/noob-hackers"><img title="Forks" src="https://img.shields.io/github/forks/noob-hackers/seeu?color=red&style=flat-square"></a>
+<a href="https://github.com/noob-hackers"><img title="Watching" src="https://img.shields.io/github/watchers/noob-hackers/seeu?label=Watchers&color=blue&style=flat-square"></a>
 <a href="https://github.com/noob-hackers"><img title="Licence" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
 </p>
 
 ## ABOUT TOOL :
 
-sneakphish is a bash based script which is officially made for phish*ng social media accounts with portforwarding and google bypass features. This tool works on both rooted Android device and Non-rooted Android device.
+seeu is a bash based script which is officially made for hacking cameras of devices with help of portforwarding and google bypass features. This tool works on both rooted Android device and Non-rooted Android device.
 
 <p align="center"><a href="https://rebrand.ly/noobhacktube"><img title="Noob Hackers" src="https://user-images.githubusercontent.com/49580304/117566254-31801e00-b0d3-11eb-860d-5601b1adccb8.jpg"></a>
 </p>
@@ -41,14 +41,13 @@ sneakphish is a bash based script which is officially made for phish*ng social m
 * internet 30 MB
 * php, wget, curl
 * storage 100 MB
-* ngrok Token
+* ngrok
 
 ## FEATURES :
-* [+] 20+ uptodate pages !
+* [+] 10 uptodate pages !
 * [+] Updated maintainence !
 * [+] 1 Port Forwarding Option !
 * [+] No link issues, timing !
-* [+] Whats app forward !
 * [+] Bypass Google detection !
 * [+] Easy for Beginners !
 
@@ -60,14 +59,14 @@ sneakphish is a bash based script which is officially made for phish*ng social m
 * `pkg install wget -y`
 * `pkg install git -y`
 * `pkg install php -y`
-* `git clone https://github.com/noob-hackers/sneakphish`
+* `git clone https://github.com/noob-hackers/seeu`
 * `cd $HOME`
 * `ls`
-* `cd sneakphish`
+* `cd seeu`
 * `ls`
-* `bash sneakphish.sh`
+* `bash seeu.sh`
 ```
-[+]-- To enable whats app forward use option 4 (More) and follow steps
+[+]-- Explore now....
 [+]-- Google detection code is given in link page.
 ```
 ## USAGE OPTIONS [Termux] :
