@@ -83,13 +83,13 @@ then
 moremenu
 elif [[ "$iput" = "5" || "$iput" = "five" ]];
 then
-am start -a android.intent.action.VIEW -d https://noob-hackers.github.io/noobspage 2>/dev/null
+am start -a android.intent.action.VIEW -d https://bit.ly/nbhtelegram 2>/dev/null
 elif [[ "$iput" = "6" || "$iput" = "six" ]];
 then
-am start -a android.intent.action.VIEW -d https://bit.ly/nhytchannel > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://bit.ly/nbhytchannel > /dev/null 2>&1
 elif [[ "$iput" = "7" || "$iput" = "seven" ]];
 then
-am start -a android.intent.action.VIEW -d https://bit.ly/nhwhatschat > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://bit.ly/nbhwhatschat > /dev/null 2>&1
 elif [[ "$iput" = "8" || "$iput" = "eight" ]];
 then
 bash sneakphish.sh
@@ -607,7 +607,7 @@ echo -e "\e[92m Success...Now Use Tool and Check Whats App.."
 echo
 elif [ "$opto" = "2" ]
 then
-am start -a android.intent.action.VIEW -d https://tinyurl.com/whatschat > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://bit.ly/nbhwatsapgroups > /dev/null 2>&1
 fi
 bash sneakphish.sh
 }
